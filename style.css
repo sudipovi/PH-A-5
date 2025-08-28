@@ -60,6 +60,7 @@ header figure {
   max-width: 1920px;
   height: 240px;
   background-color: #006747;
+  margin-bottom: 2rem;
 }
 
 .emp {
@@ -71,4 +72,25 @@ header figure {
   color: white;
   font-size: 1.2rem;
   font-weight: 400px;
+}
+
+
+/* Card section */
+
+.card{
+  margin: 1.9rem;
+}
+
+.common-card{
+  width: 430px;
+  height: 360px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.bottom-btn{
+  width: 7000px;
+  height: 2.8rem;
+  border: 2px solid black;
 }
