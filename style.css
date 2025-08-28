@@ -74,22 +74,22 @@ header figure {
   font-weight: 400px;
 }
 
-
 /* Card section */
 
-.card{
+.card {
   margin: 1.9rem;
 }
 
-.common-card{
+.common-card {
   width: 430px;
   height: 360px;
   border: 1px solid black;
   border-radius: 10px;
   padding: 2rem;
+  margin-bottom: 1.5rem;
 }
 
-.bottom-btn{
+.bottom-btn {
   width: 7000px;
   height: 2.8rem;
   border: 2px solid black;
