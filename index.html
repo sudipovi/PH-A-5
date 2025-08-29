@@ -36,21 +36,21 @@
       </div>
       <div class="right-div flex">
         <div class="flex justify-between right-div1 common-btn px-4">
-          <p class="hind">0</p>
+          <p class="hind" id="hrt-cnt">0</p>
           <figure>
             <img src="./assets/heart.png" alt="heart" width="30px" />
           </figure>
         </div>
 
         <div class="flex justify-between right-div1 common-btn px-4">
-          <p class="hind">100</p>
+          <p id="coin-cnt" class="hind">100</p>
           <figure>
             <img src="./assets/coin.png" alt="heart" width="30px" />
           </figure>
         </div>
 
         <button class="common-btn right-div3">
-          <p class="hind">2 Copy</p>
+          <p class="hind"><span id="copy-cnt">0 </span> Copy</p>
         </button>
       </div>
     </header>
@@ -79,22 +79,24 @@
                 </figure>
               </div>
               <div class="align-middle">
-                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-heart" id="hrt-btn"></i>
               </div>
             </div>
             <p class="hind text-2xl my-5">Fire Service Number</p>
-            <p class="hind text-gray-700">Fire Service</p>
-            <p class="hind text-3xl">999</p>
+            <p id="fire-name" class="hind text-gray-700">Fire Service</p>
+            <p id="fire-num" class="hind text-3xl">999</p>
             <button class="hind bg-gray-300 w-15 h-8 rounded-2xl my-4">
               Fire
             </button>
 
             <div class="flex justify-between gap-3">
               <buttton
+                id="copy-btn"
                 class="w-1/2 text-center border rounded-lg py-2 text-gray-700 hover:bg-gray-100"
                 ><i class="fa-regular fa-copy"></i> Copy</buttton
               >
               <buttton
+                id="call-btn"
                 class="w-1/2 text-center bg-green-500 text-white rounded-lg py-2"
                 ><i class="fa-solid fa-phone"></i> Call</buttton
               >
@@ -329,7 +331,6 @@
             <button class="hind bg-gray-300 w-15 h-8 rounded-2xl my-4">
               Fire
             </button>
-
             <div class="flex justify-between gap-3">
               <buttton
                 class="w-1/2 text-center border rounded-lg py-2 text-gray-700 hover:bg-gray-100"
@@ -343,6 +344,8 @@
           </div>
         </div>
       </div>
+
+      <!-- History Part -->
       <div class="history-part col-span-3 shadow-2xl p-5 rounded-xl">
         <div class="flex justify-between align-middle text-center">
           <div>

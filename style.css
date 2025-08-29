@@ -94,6 +94,10 @@ header figure {
   border: 2px solid black;
 }
 
+.history-part {
+  margin-bottom: 1rem;
+}
+
 /* Responsive */
 
 @media (max-width: 768px) {
@@ -119,5 +123,9 @@ header figure {
   }
   #fst-clmn {
     grid-template-columns: 1fr;
+  }
+  .history-part {
+    max-width: auto;
+    margin-bottom: 1rem;
   }
 }
