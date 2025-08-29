@@ -81,8 +81,7 @@ header figure {
 }
 
 .common-card {
-  width: 430px;
-  height: 360px;
+  max-width: auto;
   border: 1px solid black;
   border-radius: 10px;
   padding: 2rem;
