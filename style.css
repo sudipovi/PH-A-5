@@ -93,3 +93,31 @@ header figure {
   height: 2.8rem;
   border: 2px solid black;
 }
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+  .left-div {
+    margin-bottom: 1rem;
+  }
+  .banner {
+    max-width: auto;
+    height: auto;
+  }
+  .banner p {
+    max-width: 100%;
+    font-size: 0.8rem;
+  }
+  .bnr-p2 {
+    text-align: center;
+  }
+  .card-part {
+    grid-template-columns: 1fr;
+  }
+  #fst-clmn {
+    grid-template-columns: 1fr;
+  }
+}

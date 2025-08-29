@@ -17,3 +17,20 @@ example: let parent_element = document.getElementById("oldParent").appendChild(n
 method 2: insertBefore() this will add new element before a specific node
 
 3. What is Event Bubbling and how does it work?
+
+Event Bubbling is a process where a event like a click on a specific element and it goes up to the document part. which is known as Bubbling.
+for example, we have a DOM tree:
+DOM -> Body -> Div -> ul -> listed items
+now I clicked on a listed item. the code will work like:
+listed items -> ul -> Div -> Body -> DOM.
+now thats how Event bubbling works.
+
+4. What is Event Delegation in JavaScript? Why is it useful?
+
+When we use fewer event listeners and perform similer events based on the logic. the idea is we can use a single event listener into the parent element instead of using them in many child elements.
+It is useful for clean code. and easier to maintain. instead of using event listener 100 times we can use them 1 time and get the same output. Thats why Event Delegation is useful
+
+5. What is the difference between preventDefault() and stopPropagation() methods?
+
+preventDefault() is used for preventing the default action of an event
+stopPropagation() it is used for preventing event from bubbling
