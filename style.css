@@ -125,7 +125,10 @@ header figure {
     grid-template-columns: 1fr;
   }
   .history-part {
-    max-width: auto;
+    
     margin-bottom: 1rem;
+    column-span: 12;
   }
+
+  
 }

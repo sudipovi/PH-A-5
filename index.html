@@ -79,8 +79,8 @@
                   <img src="./assets/emergency.png" alt="fire-service" />
                 </figure>
               </div>
-              <div class="align-middle">
-                <i class="fa-solid fa-heart" id="hrt-btn"></i>
+              <div class="align-middle" id="hrt-btn">
+                <i class="fa-solid fa-heart" ></i>
               </div>
             </div>
             <p class="hind text-2xl my-5">National Emergency Number</p>
@@ -102,6 +102,8 @@
           </div>
           <!-- card1 end -->
 
+
+          <!-- Card2 -->
           <div class="card1 common-card">
             <div class="flex justify-between">
               <div class="w-12 h-12 flex justify-center rounded-lg bg-pink-100">
@@ -109,28 +111,30 @@
                   <img src="./assets/police.png" alt="fire-service" />
                 </figure>
               </div>
-              <div class="align-middle">
-                <i class="fa-solid fa-heart"></i>
+              <div class="align-middle" id="hrt-btn-plc">
+                <i class="fa-solid fa-heart hrt-btn" ></i>
               </div>
             </div>
-            <p class="hind text-2xl my-5">Police Helpline Number</p>
-            <p class="hind text-gray-700">Police</p>
-            <p class="hind text-3xl">999</p>
+            <p id="plc-name" class="hind text-2xl my-5">Police Helpline Number</p>
+            <p  class="hind text-gray-700">Police</p>
+            <p id="plc-num" class="hind text-3xl">999</p>
             <button class="bg-gray-300 w-15 h-8 rounded-2xl my-4 text-sm">
               Police
             </button>
 
             <div class="flex justify-between gap-3">
-              <buttton
+              <buttton id="copy-btn-plc"
                 class="w-1/2 text-center border rounded-lg py-2 text-gray-700 hover:bg-gray-100"
                 ><i class="fa-regular fa-copy"></i> Copy</buttton
               >
-              <buttton
+              <buttton id="call-btn-plc"
                 class="w-1/2 text-center bg-green-500 text-white rounded-lg py-2"
                 ><i class="fa-solid fa-phone"></i> Call</buttton
               >
             </div>
           </div>
+
+          <!-- card3 -->
           <div class="card1 common-card">
             <div class="flex justify-between">
               <div class="w-12 h-12 flex justify-center rounded-lg bg-pink-100">
@@ -138,21 +142,21 @@
                   <img src="./assets/fire-service.png" alt="fire-service" />
                 </figure>
               </div>
-              <div class="align-middle">
+              <div class="align-middle" id="hrt-btn-frs">
                 <i class="fa-solid fa-heart"></i>
               </div>
             </div>
-            <p class="hind text-2xl my-5">Fire Service Number</p>
-            <p class="hind text-gray-700">Fire Service</p>
-            <p class="hind text-3xl">999</p>
+            <p id="frs-name" class="hind text-2xl my-5">Fire Service <br>Number</p>
+            <p  class="hind text-gray-700">Fire Service</p>
+            <p id="frs-num" class="hind text-3xl">999</p>
             <button class="bg-gray-300 w-15 h-8 rounded-2xl my-4">Fire</button>
 
             <div class="flex justify-between gap-3">
-              <buttton
+              <buttton id="copy-btn-frs"
                 class="w-1/2 text-center border rounded-lg py-2 text-gray-700 hover:bg-gray-100"
                 ><i class="fa-regular fa-copy"></i> Copy</buttton
               >
-              <buttton
+              <buttton id="call-btn-frs"
                 class="w-1/2 text-center bg-green-500 text-white rounded-lg py-2"
                 ><i class="fa-solid fa-phone"></i> Call</buttton
               >
@@ -161,6 +165,8 @@
         </div>
 
         <div id="fst-clmn" class="grid grid-cols-3 gap-5">
+
+          <!-- card4 -->
           <div class="card1 common-card">
             <div class="flex justify-between">
               <div class="w-12 h-12 flex justify-center rounded-lg bg-pink-100">
@@ -168,29 +174,30 @@
                   <img src="./assets/ambulance.png" alt="fire-service" />
                 </figure>
               </div>
-              <div class="align-middle">
+              <div class="align-middle" id="hrt-btn-amb">
                 <i class="fa-solid fa-heart"></i>
               </div>
             </div>
-            <p class="hind text-2xl my-5">Ambulance Service Number</p>
+            <p id="amb-name" class="hind text-2xl my-5">Ambulance Service Number</p>
             <p class="hind text-gray-700">Ambulance Service</p>
-            <p class="hind text-3xl">1998-2505</p>
+            <p id="amb-num" class="hind text-3xl">100</p>
             <button class="bg-gray-300 w-15 h-8 rounded-2xl my-4 text-sm">
               Health
             </button>
 
             <div class="flex justify-between gap-3">
-              <buttton
+              <buttton id="copy-btn-amb"
                 class="w-1/2 text-center border rounded-lg py-2 text-gray-700 hover:bg-gray-100"
                 ><i class="fa-regular fa-copy"></i> Copy</buttton
               >
-              <buttton
+              <buttton id="call-btn-amb"
                 class="w-1/2 text-center bg-green-500 text-white rounded-lg py-2"
                 ><i class="fa-solid fa-phone"></i> Call</buttton
               >
             </div>
           </div>
 
+          <!-- card5 -->
           <div class="card1 common-card">
             <div class="flex justify-between">
               <div class="w-12 h-12 flex justify-center rounded-lg bg-pink-100">
@@ -198,26 +205,28 @@
                   <img src="./assets/emergency.png" alt="fire-service" />
                 </figure>
               </div>
-              <div class="align-middle">
+              <div class="align-middle" id="hrt-btn-wch">
                 <i class="fa-solid fa-heart"></i>
               </div>
             </div>
-            <p class="hind text-2xl my-5">Women & Child Helpline</p>
+            <p id="wch-name" class="hind text-2xl my-5">Women & Child Helpline</p>
             <p class="hind text-gray-700">Women & Child</p>
-            <p class="hind text-3xl">100</p>
+            <p id="wch-num" class="hind text-3xl">1998-2505</p>
             <button class="bg-gray-300 w-15 h-8 rounded-2xl my-4">Help</button>
 
             <div class="flex justify-between gap-3">
-              <buttton
+              <buttton id="copy-btn-wch"
                 class="w-1/2 text-center border rounded-lg py-2 text-gray-700 hover:bg-gray-100"
                 ><i class="fa-regular fa-copy"></i> Copy</buttton
               >
-              <buttton
+              <buttton id="call-btn-wch"
                 class="w-1/2 text-center bg-green-500 text-white rounded-lg py-2"
                 ><i class="fa-solid fa-phone"></i> Call</buttton
               >
             </div>
           </div>
+
+          <!-- card6 -->
           <div class="card1 common-card">
             <div class="flex justify-between">
               <div class="w-12 h-12 flex justify-center rounded-lg bg-pink-100">
@@ -225,21 +234,21 @@
                   <img src="./assets/emergency.png" alt="fire-service" />
                 </figure>
               </div>
-              <div class="align-middle">
+              <div id="hrt-btn-ach" class="align-middle">
                 <i class="fa-solid fa-heart"></i>
               </div>
             </div>
-            <p class="hind text-2xl my-5">Anti-Corruption Helpline</p>
+            <p id="ach-name" class="hind text-2xl my-5">Anti-Corruption Helpline</p>
             <p class="hind text-gray-700">Anti-Corruption</p>
-            <p class="hind text-3xl">105</p>
+            <p id="ach-num" class="hind text-3xl">105</p>
             <button class="bg-gray-300 w-15 h-8 rounded-2xl my-4">Govt.</button>
 
             <div class="flex justify-between gap-3">
-              <buttton
+              <buttton id="copy-btn-ach"
                 class="w-1/2 text-center border rounded-lg py-2 text-gray-700 hover:bg-gray-100"
                 ><i class="fa-regular fa-copy"></i> Copy</buttton
               >
-              <buttton
+              <buttton id="call-btn-ach"
                 class="w-1/2 text-center bg-green-500 text-white rounded-lg py-2"
                 ><i class="fa-solid fa-phone"></i> Call</buttton
               >
@@ -248,88 +257,91 @@
         </div>
 
         <div id="fst-clmn" class="grid grid-cols-3 gap-5">
+
+          <!-- card7 -->
           <div class="card1 common-card">
             <div class="flex justify-between">
               <div class="w-12 h-12 flex justify-center rounded-lg bg-pink-100">
                 <figure class="fire-srev w-10">
-                  <img src="./assets/fire-service.png" alt="fire-service" />
+                  <img src="./assets/emergency.png" alt="fire-service" />
                 </figure>
               </div>
-              <div class="align-middle">
+              <div id="hrt-btn-eh" class="align-middle">
                 <i class="fa-solid fa-heart"></i>
               </div>
             </div>
-            <p class="hind text-2xl my-5">Fire Service Number</p>
-            <p class="hind text-gray-700">Fire Service</p>
-            <p class="hind text-3xl">999</p>
-            <button class="hind bg-gray-300 w-15 h-8 rounded-2xl my-4">
-              Fire
+            <p id="eh-name" class="hind text-2xl my-5">Electricity Helpline</p>
+            <p class="hind text-gray-700">Electricity</p>
+            <p id="eh-num" class="hind text-3xl">2505</p>
+            <button class=" bg-gray-300 w-19 h-8 rounded-2xl my-4 text-sm">
+              Electricity 
             </button>
-
             <div class="flex justify-between gap-3">
-              <buttton
+              <buttton id="copy-btn-eh"
                 class="w-1/2 text-center border rounded-lg py-2 text-gray-700 hover:bg-gray-100"
                 ><i class="fa-regular fa-copy"></i> Copy</buttton
               >
-              <buttton
+              <buttton id="call-btn-eh"
                 class="w-1/2 text-center bg-green-500 text-white rounded-lg py-2"
                 ><i class="fa-solid fa-phone"></i> Call</buttton
               >
             </div>
           </div>
 
+          <!-- card8 -->
           <div class="card1 common-card">
             <div class="flex justify-between">
               <div class="w-12 h-12 flex justify-center rounded-lg bg-pink-100">
                 <figure class="fire-srev w-10">
-                  <img src="./assets/fire-service.png" alt="fire-service" />
+                  <img src="./assets/brac.png" alt="fire-service" />
                 </figure>
               </div>
-              <div class="align-middle">
+              <div id="hrt-btn-bh" class="align-middle">
                 <i class="fa-solid fa-heart"></i>
               </div>
             </div>
-            <p class="hind text-2xl my-5">Fire Service Number</p>
-            <p class="hind text-gray-700">Fire Service</p>
-            <p class="hind text-3xl">999</p>
-            <button class="hind bg-gray-300 w-15 h-8 rounded-2xl my-4">
-              Fire
+            <p id="bh-name" class="hind text-2xl my-5">Brac Helpline</p>
+            <p class="hind text-gray-700">BRAC</p>
+            <p id="bh-num" class="hind text-3xl">2598</p>
+            <button class=" bg-gray-300 w-15 h-8 rounded-2xl my-4">
+              NGO
             </button>
-
             <div class="flex justify-between gap-3">
-              <buttton
+              <buttton id="copy-btn-bh"
                 class="w-1/2 text-center border rounded-lg py-2 text-gray-700 hover:bg-gray-100"
                 ><i class="fa-regular fa-copy"></i> Copy</buttton
               >
-              <buttton
+              <buttton id="call-btn-bh"
                 class="w-1/2 text-center bg-green-500 text-white rounded-lg py-2"
                 ><i class="fa-solid fa-phone"></i> Call</buttton
               >
             </div>
           </div>
+
+          <!-- card9 -->
           <div class="card1 common-card">
             <div class="flex justify-between">
               <div class="w-12 h-12 flex justify-center rounded-lg bg-pink-100">
                 <figure class="fire-srev w-10">
-                  <img src="./assets/fire-service.png" alt="fire-service" />
+                  <img src="./assets/Bangladesh-Railway.png" alt="fire-service" />
                 </figure>
               </div>
-              <div class="align-middle">
+              <div id="hrt-btn-br" class="align-middle">
                 <i class="fa-solid fa-heart"></i>
               </div>
             </div>
-            <p class="hind text-2xl my-5">Fire Service Number</p>
-            <p class="hind text-gray-700">Fire Service</p>
-            <p class="hind text-3xl">999</p>
-            <button class="hind bg-gray-300 w-15 h-8 rounded-2xl my-4">
-              Fire
+            <p id="br-name" class="hind text-2xl my-5">Bangladesh Railway</p>
+            <p class="hind text-gray-700">Bangladesh Railway</p>
+            <p id="br-num" class="hind text-3xl">999</p>
+            <button class=" bg-gray-300 w-19 h-8 rounded-2xl my-4 text-sm">
+              Railway
             </button>
             <div class="flex justify-between gap-3">
-              <buttton
+              <buttton id="copy-btn-br"
                 class="w-1/2 text-center border rounded-lg py-2 text-gray-700 hover:bg-gray-100"
                 ><i class="fa-regular fa-copy"></i> Copy</buttton
               >
-              <buttton
+              <buttton id="call-btn-br"
                 class="w-1/2 text-center bg-green-500 text-white rounded-lg py-2"
                 ><i class="fa-solid fa-phone"></i> Call</buttton
               >
@@ -339,17 +351,20 @@
       </div>
 
       <!-- History Part -->
-      <div class="history-part col-span-3 shadow-2xl p-5 rounded-xl">
-        <div class="flex justify-between align-middle text-center">
+      <div class="history-part col-span-3 shadow-2xl rounded-xl">
+        <div class="flex justify-between align-middle m-6">
           <div>
             <p><i class="fa-solid fa-clock text-2xl"></i> Call History</p>
           </div>
           <div>
-            <button class="bg-green-600 w-20 h-12 rounded-3xl text-white">
+            <button id="clear-btn" class="bg-green-600 w-20 h-10 rounded-3xl text-white">
               Clear
             </button>
           </div>
         </div>
+
+        <div id="call-history"></div>
+        
       </div>
     </section>
     <script src="./script/index.js"></script>
